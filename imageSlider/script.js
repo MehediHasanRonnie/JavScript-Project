@@ -12,7 +12,7 @@ function next(){
         imgTag.src = photos[count];
     }  
 }
-
+// creating previous function to get previous photos
 function prev(){
     count--;
     if(count < 0){
