@@ -2,7 +2,7 @@ var photos = ["images/3.jpg","images/2.jpg","images/1.jpg","images/4.jpg"];
 var imgTag = document.querySelector("img");
 
 var count = 0;
-
+// creating next function for onclick to the next elements
 function next(){
     count++;
     if(count >= photos.length){
@@ -10,9 +10,9 @@ function next(){
         imgTag.src = photos[count];
     }else{
         imgTag.src = photos[count];
-    }
-  
+    }  
 }
+
 function prev(){
     count--;
     if(count < 0){
